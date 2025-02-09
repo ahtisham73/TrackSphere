@@ -1,16 +1,20 @@
 # TrackSphere 🌎 🛰️
-
-*A modern, real-time GPS tracking application with an interactive web interface.*
+![Python](https://img.shields.io/badge/Made%20with-Python-blue)  ![Flask](https://img.shields.io/badge/Framework-Flask-green)  ![Leaflet.js](https://img.shields.io/badge/Maps-Leaflet.js-orange)  
+![PySerial](https://img.shields.io/badge/Serial%20Interface-PySerial-red) ![MIT License](https://img.shields.io/badge/License-MIT-green)  
 
 ---
 
-## 🌍 Overview
-This project provides a **real-time GPS tracking system** using Python and Flask, featuring a dynamic web-based map interface. It allows users to visualize live location updates, track movement history, and view precise **DMS (Degrees, Minutes, Seconds)** coordinates.
+## 📜 Introduction  
+Live GPS Tracker is a **real-time GPS tracking web application** that captures location data from a connected **USB GPS device** and visualizes it on an interactive map. The app features **automatic port detection**, **DMS (Degrees, Minutes, Seconds) conversion**, and **dynamic route history tracking**.  
 
-🔹 **Cross-Platform:** Works on both **Windows** (as an executable) and **Linux**.  
-🔹 **Real-Time Tracking:** Fetches live location data from a USB-connected GPS device.  
-🔹 **Web-Based Interface:** Uses **Leaflet.js** for an interactive map experience.  
-🔹 **Standalone Executable:** No need to install dependencies—just run the `.exe` file.
+---
+
+## 🚀 Features  
+✔️ Auto-detects GPS ports on **Windows & Linux**  
+✔️ Real-time location tracking with **Leaflet.js**  
+✔️ **DMS format conversion** for precise location representation  
+✔️ Generates a **standalone executable (.exe)** for easy distribution  
+✔️ Interactive map with route history
 
 ---
 
@@ -27,7 +31,7 @@ This project provides a **real-time GPS tracking system** using Python and Flask
 ---
 
 ## 📷 User Interface
-![Web UI Preview](/WebUI)  
+![Web UI Preview](WebUI.png)  
 *A sleek and modern web interface displaying live GPS location.*
 
 ---
