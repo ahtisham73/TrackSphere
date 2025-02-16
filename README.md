@@ -1,66 +1,72 @@
-# TrackSphere 🌎 🛰️
+# **TrackSphere 🌎 🛠️**  
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue)  ![Flask](https://img.shields.io/badge/Framework-Flask-green)  ![Leaflet.js](https://img.shields.io/badge/Maps-Leaflet.js-orange)  
 ![PySerial](https://img.shields.io/badge/Serial%20Interface-PySerial-red) ![MIT License](https://img.shields.io/badge/License-MIT-green)  
 
 ---
 
-## 📜 Introduction  
-Live GPS Tracker is a **real-time GPS tracking web application** that captures location data from a connected **USB GPS device** and visualizes it on an interactive map. The app features **automatic port detection**, **DMS (Degrees, Minutes, Seconds) conversion**, and **dynamic route history tracking**.  
+## 📝 **Introduction**  
+**TrackSphere** is a **real-time GPS tracking web application** that captures live location data from a connected **USB GPS device** and visualizes it on an interactive map. It features **automatic port detection**, **dynamic port assignment**, **DMS (Degrees, Minutes, Seconds) conversion**, and **route history tracking** for seamless real-time navigation.  
 
 ---
 
-## 🚀 Features  
-✔️ Auto-detects GPS ports on **Windows & Linux**  
-✔️ Real-time location tracking with **Leaflet.js**  
-✔️ **DMS format conversion** for precise location representation  
-✔️ Generates a **standalone executable (.exe)** for easy distribution  
-✔️ Interactive map with route history
+## 🚀 **Features**  
+✔️ **Automatic GPS port detection** on Windows & Linux  
+✔️ **Dynamic port selection** for hassle-free deployment  
+✔️ **Real-time GPS tracking** with interactive **Leaflet.js maps**  
+✔️ **DMS conversion** for precise geographic representation  
+✔️ **Standalone executables for Windows & Linux**, each with platform-specific UI  
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ **Technologies Used**  
 
-### 🔗 Frameworks & Libraries:
-- 🐍 **Python** (Backend Logic)
-- 🌐 **Flask** (Web Server & API)
-- 🗺️ **Leaflet.js** (Interactive Mapping)
-- 📡 **PySerial** (GPS Data Extraction)
-- 🛰️ **pynmea2** (NMEA Sentence Parsing)
-- 🔧 **PyInstaller** (Executable Packaging)
-
----
-
-## 📷 User Interface
-![Web UI Preview](WebUI.png)  
-*A sleek and modern web interface displaying live GPS location.*
+### 🔗 **Frameworks & Libraries:**  
+- 🐍 **Python** (Backend Logic)  
+- 🌐 **Flask** (Web Server & API)  
+- 🛠 **Leaflet.js** (Interactive Mapping)  
+- 🌬️ **PySerial** (GPS Data Extraction)  
+- 🛰️ **pynmea2** (NMEA Sentence Parsing)  
+- 🔧 **PyInstaller** (Executable Packaging)  
 
 ---
 
-## 📦 Installation & Usage
-### Windows (Standalone Executable)
-1. **Download** the `.exe` file from the Releases section.
-2. **Double-click** to launch the application.
-3. Open your browser and go to **http://127.0.0.1:5000**.
+## 📷 **User Interface**  
+### **Windows UI:**  
+![Windows App Preview](Windows_UI.png)  
 
-### Linux (Command Line Execution)
-1. **Download** the executable file.
-2. Open a terminal and navigate to the file location.
-3. Run the command:
+### **Linux UI:**  
+![Linux App Preview](Linux_UI.png)  
+
+---
+
+## 📦 **Installation & Usage**  
+
+### **Windows (Standalone Executable)**  
+1. **Download** the Windows `.exe` file from the Releases section.  
+2. **Launch** the application.  
+3. The web app runs on a **dynamically assigned port** (check console output for the link).  
+
+### **Linux (Standalone Executable)**  
+1. **Download** the Linux executable file.  
+2. Open a terminal and navigate to the file location.  
+3. Run the command:  
    ```bash
    ./gps_tracker
-   ```
-4. Open a browser and visit **http://127.0.0.1:5000**.
+   ```  
+4. The web app runs on a **dynamically assigned port** (check console output for the link).  
 
 ---
 
-## 🔒 Security & Copyright
-This project is **privately developed** and only the executable file is shared to prevent unauthorized code duplication. If you are interested in **collaborating or learning more**, feel free to contact me.
+## 🔒 **Security & Copyright**  
+This project is **privately developed**, and only the executables are shared to prevent unauthorized access to the source code. For **collaboration or inquiries**, feel free to contact me.  
 
-📩 **Developer:** [ahtishamsuhdeer@gmail.com](mailto:ahtishamsuhdeer@gmail.com)
+📩 **Developer:** [ahtishamsuhdeer@gmail.com](mailto:ahtishamsuhdeer@gmail.com)  
 
 ---
 
-## ⭐ Contribute & Support
-If you find this project useful, consider giving it a ⭐ on GitHub!
+## ⭐ **Contribute & Support**  
+If you find this project useful, consider giving it a ⭐ on GitHub!  
 
-🛠️ *For any feature requests or improvements, feel free to reach out!*
+🛠️ *For feature requests or improvements, feel free to reach out!*  
+
+---
