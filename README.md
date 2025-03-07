@@ -32,7 +32,7 @@
 
 ## 📷 **User Interface**  
 ### **Windows UI:**  
-![Windows App Preview](Windows_UI.png)  
+![Windows App Preview](WebUI.png)  
 
 ### **Linux UI:**  
 ![Linux App Preview](Linux_UI.png)  
