@@ -1,4 +1,4 @@
-# **TrackSphere 🌎 🛠️**  
+# **TrackSphere 🌎 🧭 **  
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue)  ![Flask](https://img.shields.io/badge/Framework-Flask-green)  ![Leaflet.js](https://img.shields.io/badge/Maps-Leaflet.js-orange)  
 ![PySerial](https://img.shields.io/badge/Serial%20Interface-PySerial-red) ![MIT License](https://img.shields.io/badge/License-MIT-green)  
 
